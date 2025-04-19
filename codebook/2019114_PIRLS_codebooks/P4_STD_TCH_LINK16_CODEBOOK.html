@@ -1,0 +1,1051 @@
+<p align="center" style="font-size:1.6em">      <br>      <strong> PIRLS 2016 </strong>	  <br><br>	  <strong>U.S. Student-Teacher Linkage Data</strong>	  <br><br><br>	  <strong>Codebook</strong>	 </p>
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">     <tr>     <td><b>Number</b></td>	 <td><b>Name</b></td>	 <td><b>Label</b></td>	 </tr>
+<tr>     <td align=right>1 </td>     <td align=left><a href="#1  ">IDCNTRY </a></td>	 <td nowrap align=left>*COUNTRY ID - NUMERIC CODE* </td>     </tr>
+<tr>     <td align=right>2 </td>     <td align=left><a href="#2  ">IDBOOK </a></td>	 <td nowrap align=left>*BOOKLET ID* </td>     </tr>
+<tr>     <td align=right>3 </td>     <td align=left><a href="#3  ">IDSCHOOL </a></td>	 <td nowrap align=left>*SCHOOL ID* </td>     </tr>
+<tr>     <td align=right>4 </td>     <td align=left><a href="#4  ">IDCLASS </a></td>	 <td nowrap align=left>*CLASS ID* </td>     </tr>
+<tr>     <td align=right>5 </td>     <td align=left><a href="#5  ">IDSTUD </a></td>	 <td nowrap align=left>*STUDENT ID* </td>     </tr>
+<tr>     <td align=right>6 </td>     <td align=left><a href="#6  ">IDTEACH </a></td>	 <td nowrap align=left>*TEACHER ID* </td>     </tr>
+<tr>     <td align=right>7 </td>     <td align=left><a href="#7  ">IDLINK </a></td>	 <td nowrap align=left>*TEACHER LINK NUMBER* </td>     </tr>
+<tr>     <td align=right>8 </td>     <td align=left><a href="#8  ">IDTEALIN </a></td>	 <td nowrap align=left>*TEACHER ID AND LINK* </td>     </tr>
+<tr>     <td align=right>9 </td>     <td align=left><a href="#9  ">IDPOP </a></td>	 <td nowrap align=left>*POPULATION ID* </td>     </tr>
+<tr>     <td align=right>10 </td>     <td align=left><a href="#10  ">IDGRADER </a></td>	 <td nowrap align=left>*STANDARDIZED GRADE ID* </td>     </tr>
+<tr>     <td align=right>11 </td>     <td align=left><a href="#11  ">IDGRADE </a></td>	 <td nowrap align=left>*GRADE ID* </td>     </tr>
+<tr>     <td align=right>12 </td>     <td align=left><a href="#12  ">IDSUBJ </a></td>	 <td nowrap align=left>*SUBJECT ID* </td>     </tr>
+<tr>     <td align=right>13 </td>     <td align=left><a href="#13  ">NTEACH </a></td>	 <td nowrap align=left>*NUMBER OF TEACHERS* </td>     </tr>
+<tr>     <td align=right>14 </td>     <td align=left><a href="#14  ">JKREP </a></td>	 <td nowrap align=left>*JACKKNIFE REPLICATE CODE* </td>     </tr>
+<tr>     <td align=right>15 </td>     <td align=left><a href="#15  ">JKZONE </a></td>	 <td nowrap align=left>*JACKKNIFE ZONE* </td>     </tr>
+<tr>     <td align=right>16 </td>     <td align=left><a href="#16  ">TCHWGT </a></td>	 <td nowrap align=left>*WEIGHT FOR RDG TEACHER DATA COMBINED* </td>     </tr>
+<tr>     <td align=right>17 </td>     <td align=left><a href="#17  ">TOTWGT </a></td>	 <td nowrap align=left>*TOTAL STUDENT WEIGHT* </td>     </tr>
+<tr>     <td align=right>18 </td>     <td align=left><a href="#18  ">ASRREA01 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: OVERALL READING PV1* </td>     </tr>
+<tr>     <td align=right>19 </td>     <td align=left><a href="#19  ">ASRREA02 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: OVERALL READING PV2* </td>     </tr>
+<tr>     <td align=right>20 </td>     <td align=left><a href="#20  ">ASRREA03 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: OVERALL READING PV3* </td>     </tr>
+<tr>     <td align=right>21 </td>     <td align=left><a href="#21  ">ASRREA04 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: OVERALL READING PV4* </td>     </tr>
+<tr>     <td align=right>22 </td>     <td align=left><a href="#22  ">ASRREA05 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: OVERALL READING PV5* </td>     </tr>
+<tr>     <td align=right>23 </td>     <td align=left><a href="#23  ">ASRLIT01 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: LITERARY PURPOSE PV1* </td>     </tr>
+<tr>     <td align=right>24 </td>     <td align=left><a href="#24  ">ASRLIT02 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: LITERARY PURPOSE PV2* </td>     </tr>
+<tr>     <td align=right>25 </td>     <td align=left><a href="#25  ">ASRLIT03 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: LITERARY PURPOSE PV3* </td>     </tr>
+<tr>     <td align=right>26 </td>     <td align=left><a href="#26  ">ASRLIT04 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: LITERARY PURPOSE PV4* </td>     </tr>
+<tr>     <td align=right>27 </td>     <td align=left><a href="#27  ">ASRLIT05 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: LITERARY PURPOSE PV5* </td>     </tr>
+<tr>     <td align=right>28 </td>     <td align=left><a href="#28  ">ASRINF01 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: INFORMATIONAL PURPOS PV1* </td>     </tr>
+<tr>     <td align=right>29 </td>     <td align=left><a href="#29  ">ASRINF02 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: INFORMATIONAL PURPOS PV2* </td>     </tr>
+<tr>     <td align=right>30 </td>     <td align=left><a href="#30  ">ASRINF03 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: INFORMATIONAL PURPOS PV3* </td>     </tr>
+<tr>     <td align=right>31 </td>     <td align=left><a href="#31  ">ASRINF04 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: INFORMATIONAL PURPOS PV4* </td>     </tr>
+<tr>     <td align=right>32 </td>     <td align=left><a href="#32  ">ASRINF05 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: INFORMATIONAL PURPOS PV5* </td>     </tr>
+<tr>     <td align=right>33 </td>     <td align=left><a href="#33  ">ASRRSI01 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: STRAIGHTFORWARD PROC PV1* </td>     </tr>
+<tr>     <td align=right>34 </td>     <td align=left><a href="#34  ">ASRRSI02 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: STRAIGHTFORWARD PROC PV2* </td>     </tr>
+<tr>     <td align=right>35 </td>     <td align=left><a href="#35  ">ASRRSI03 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: STRAIGHTFORWARD PROC PV3* </td>     </tr>
+<tr>     <td align=right>36 </td>     <td align=left><a href="#36  ">ASRRSI04 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: STRAIGHTFORWARD PROC PV4* </td>     </tr>
+<tr>     <td align=right>37 </td>     <td align=left><a href="#37  ">ASRRSI05 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: STRAIGHTFORWARD PROC PV5* </td>     </tr>
+<tr>     <td align=right>38 </td>     <td align=left><a href="#38  ">ASRIIE01 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: INTERPRETING PROCESS PV1* </td>     </tr>
+<tr>     <td align=right>39 </td>     <td align=left><a href="#39  ">ASRIIE02 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: INTERPRETING PROCESS PV2* </td>     </tr>
+<tr>     <td align=right>40 </td>     <td align=left><a href="#40  ">ASRIIE03 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: INTERPRETING PROCESS PV3* </td>     </tr>
+<tr>     <td align=right>41 </td>     <td align=left><a href="#41  ">ASRIIE04 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: INTERPRETING PROCESS PV4* </td>     </tr>
+<tr>     <td align=right>42 </td>     <td align=left><a href="#42  ">ASRIIE05 </a></td>	 <td nowrap align=left>*PLAUSIBLE VALUE: INTERPRETING PROCESS PV5* </td>     </tr>
+<tr>     <td align=right>43 </td>     <td align=left><a href="#43  ">ASRIBM01 </a></td>	 <td nowrap align=left>*INT. READING SCALE BENCHMARK REACHED* </td>     </tr>
+<tr>     <td align=right>44 </td>     <td align=left><a href="#44  ">ASRIBM02 </a></td>	 <td nowrap align=left>*INT. READING SCALE BENCHMARK REACHED* </td>     </tr>
+<tr>     <td align=right>45 </td>     <td align=left><a href="#45  ">ASRIBM03 </a></td>	 <td nowrap align=left>*INT. READING SCALE BENCHMARK REACHED* </td>     </tr>
+<tr>     <td align=right>46 </td>     <td align=left><a href="#46  ">ASRIBM04 </a></td>	 <td nowrap align=left>*INT. READING SCALE BENCHMARK REACHED* </td>     </tr>
+<tr>     <td align=right>47 </td>     <td align=left><a href="#47  ">ASRIBM05 </a></td>	 <td nowrap align=left>*INT. READING SCALE BENCHMARK REACHED* </td>     </tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:20%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<div style="clear:both;"></div><br>
+<table align=left cellspacing=1 cellpadding=1 style="width:100%; font_size:1.0em">	<tr>	<b>Note: </b>Variables that do not come directly from participant responses have asterisks surrounding their variable label.	</tr>    <br>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=1 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>IDCNTRY </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*COUNTRY ID - NUMERIC CODE* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>1 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>1-6 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>4425 </td>	<td align=right>100 </td>	<td nowrap align=right>840 </td>	<td nowrap>COUNTRY ID </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=2 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>IDBOOK </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*BOOKLET ID* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>2 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>2 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>7-8 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>249 </td>	<td align=right>5.63 </td>	<td nowrap align=right>1 </td>	<td nowrap>BOOKLET 1 </td>	</tr>
+<tr>	<td align=right>241 </td>	<td align=right>5.45 </td>	<td nowrap align=right>2 </td>	<td nowrap>BOOKLET 2 </td>	</tr>
+<tr>	<td align=right>249 </td>	<td align=right>5.63 </td>	<td nowrap align=right>3 </td>	<td nowrap>BOOKLET 3 </td>	</tr>
+<tr>	<td align=right>237 </td>	<td align=right>5.36 </td>	<td nowrap align=right>4 </td>	<td nowrap>BOOKLET 4 </td>	</tr>
+<tr>	<td align=right>257 </td>	<td align=right>5.81 </td>	<td nowrap align=right>5 </td>	<td nowrap>BOOKLET 5 </td>	</tr>
+<tr>	<td align=right>251 </td>	<td align=right>5.67 </td>	<td nowrap align=right>6 </td>	<td nowrap>BOOKLET 6 </td>	</tr>
+<tr>	<td align=right>246 </td>	<td align=right>5.56 </td>	<td nowrap align=right>7 </td>	<td nowrap>BOOKLET 7 </td>	</tr>
+<tr>	<td align=right>247 </td>	<td align=right>5.58 </td>	<td nowrap align=right>8 </td>	<td nowrap>BOOKLET 8 </td>	</tr>
+<tr>	<td align=right>240 </td>	<td align=right>5.42 </td>	<td nowrap align=right>9 </td>	<td nowrap>BOOKLET 9 </td>	</tr>
+<tr>	<td align=right>251 </td>	<td align=right>5.67 </td>	<td nowrap align=right>10 </td>	<td nowrap>BOOKLET 10 </td>	</tr>
+<tr>	<td align=right>242 </td>	<td align=right>5.47 </td>	<td nowrap align=right>11 </td>	<td nowrap>BOOKLET 11 </td>	</tr>
+<tr>	<td align=right>252 </td>	<td align=right>5.69 </td>	<td nowrap align=right>12 </td>	<td nowrap>BOOKLET 12 </td>	</tr>
+<tr>	<td align=right>251 </td>	<td align=right>5.67 </td>	<td nowrap align=right>13 </td>	<td nowrap>BOOKLET 13 </td>	</tr>
+<tr>	<td align=right>243 </td>	<td align=right>5.49 </td>	<td nowrap align=right>14 </td>	<td nowrap>BOOKLET 14 </td>	</tr>
+<tr>	<td align=right>255 </td>	<td align=right>5.76 </td>	<td nowrap align=right>15 </td>	<td nowrap>BOOKLET 15 </td>	</tr>
+<tr>	<td align=right>714 </td>	<td align=right>16.14 </td>	<td nowrap align=right>16 </td>	<td nowrap>READER </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=3 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>IDSCHOOL </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*SCHOOL ID* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>3 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>4 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>9-12 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>4425 </td>	<td align=right>100 </td>	<td nowrap align=right>1-158 </td>	<td nowrap>SCHOOL ID </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=4 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>IDCLASS </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*CLASS ID* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>4 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>13-18 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>4425 </td>	<td align=right>100 </td>	<td nowrap align=right>104-15801 </td>	<td nowrap>CLASS ID </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=5 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>IDSTUD </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*STUDENT ID* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>5 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>8 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>19-26 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>4425 </td>	<td align=right>100 </td>	<td nowrap align=right>10401-1580126 </td>	<td nowrap>STUDENT ID </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=6 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>IDTEACH </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*TEACHER ID* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>27-32 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>4425 </td>	<td align=right>100 </td>	<td nowrap align=right>101-15801 </td>	<td nowrap>TEACHER ID </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=7 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>IDLINK </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*TEACHER LINK NUMBER* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>7 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>2 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>33-34 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>4425 </td>	<td align=right>100 </td>	<td nowrap align=right>1-3 </td>	<td nowrap>TEACHER LINK NUMBER </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>98,99 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=8 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>IDTEALIN </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*TEACHER ID AND LINK* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>8 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>8 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>35-42 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>4425 </td>	<td align=right>100 </td>	<td nowrap align=right>10101-1580101 </td>	<td nowrap>TEACHER ID AND LINK </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=9 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>IDPOP </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*POPULATION ID* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>9 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>1 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>43 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>4425 </td>	<td align=right>100 </td>	<td nowrap align=right>1 </td>	<td nowrap>POP 1 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>8,9 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=10 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>IDGRADER </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*STANDARDIZED GRADE ID* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>10 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>1 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>44 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>4425 </td>	<td align=right>100 </td>	<td nowrap align=right>2 </td>	<td nowrap>UPPER GRADE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>8,9 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=11 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>IDGRADE </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*GRADE ID* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>11 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>2 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>45-46 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>4425 </td>	<td align=right>100 </td>	<td nowrap align=right>4 </td>	<td nowrap>GRADE 4 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>98,99 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=12 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>IDSUBJ </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*SUBJECT ID* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>12 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>1 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>47 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>4425 </td>	<td align=right>100 </td>	<td nowrap align=right>1 </td>	<td nowrap>READING </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>8,9 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=13 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>NTEACH </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*NUMBER OF TEACHERS* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>1 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>48 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>4425 </td>	<td align=right>100 </td>	<td nowrap align=right>1-2 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>8,9 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=14 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>JKREP </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*JACKKNIFE REPLICATE CODE* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>14 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>1 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>49 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>2294 </td>	<td align=right>51.84 </td>	<td nowrap align=right>0 </td>	<td nowrap>REPLICATE CODE </td>	</tr>
+<tr>	<td align=right>2131 </td>	<td align=right>48.16 </td>	<td nowrap align=right>1 </td>	<td nowrap>REPLICATE CODE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>8,9 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=15 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>JKZONE </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*JACKKNIFE ZONE* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>15 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>2 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>50-51 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>4425 </td>	<td align=right>100 </td>	<td nowrap align=right>1-75 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>98,99 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=16 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>TCHWGT </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*WEIGHT FOR RDG TEACHER DATA COMBINED* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>16 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>52-64 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>243.9099550-2948.06 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>243.909955 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>2948.055555 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>806.89 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>434.66 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=17 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>TOTWGT </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*TOTAL STUDENT WEIGHT* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>17 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>65-77 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>243.9099550-2948.06 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>243.909955 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>2948.055555 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>806.89 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>434.66 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=18 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRREA01 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: OVERALL READING PV1* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>18 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>78-90 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>253.79558-779.06478 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>253.79558 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>779.06478 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>549.34 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>78.81 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=19 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRREA02 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: OVERALL READING PV2* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>19 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>91-103 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>252.16296-805.63417 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>252.16296 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>805.63417 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>548.38 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>79.78 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=20 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRREA03 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: OVERALL READING PV3* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>20 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>104-116 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>239.46095-815.99811 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>239.46095 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>815.99811 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>548.66 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>79.03 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=21 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRREA04 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: OVERALL READING PV4* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>21 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>117-129 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>199.07288-792.52231 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>199.07288 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>792.52231 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>547.66 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>78.96 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=22 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRREA05 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: OVERALL READING PV5* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>22 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>130-142 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>255.31029-782.09878 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>255.31029 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>782.09878 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>547.6 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>79.69 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=23 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRLIT01 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: LITERARY PURPOSE PV1* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>23 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>143-155 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>208.613-828.40685 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>208.613 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>828.40685 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>556.07 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>84.62 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=24 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRLIT02 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: LITERARY PURPOSE PV2* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>24 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>156-168 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>220.00146-821.9994 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>220.00146 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>821.9994 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>555.67 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>84.04 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=25 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRLIT03 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: LITERARY PURPOSE PV3* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>25 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>169-181 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>222.35763-812.16162 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>222.35763 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>812.16162 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>555.97 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>84.37 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=26 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRLIT04 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: LITERARY PURPOSE PV4* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>26 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>182-194 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>247.96217-818.97029 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>247.96217 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>818.97029 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>556.18 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>84.77 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=27 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRLIT05 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: LITERARY PURPOSE PV5* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>27 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>195-207 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>215.7467-836.86028 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>215.7467 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>836.86028 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>555.92 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>85.24 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=28 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRINF01 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: INFORMATIONAL PURPOS PV1* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>28 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>208-220 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>270.16524-790.33794 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>232.84944 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>803.03848 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>541.75 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>82.54 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=29 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRINF02 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: INFORMATIONAL PURPOS PV2* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>29 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>221-233 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>244.79995-803.38812 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>244.79995 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>803.38812 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>542.8 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>82.96 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=30 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRINF03 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: INFORMATIONAL PURPOS PV3* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>30 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>234-246 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>213.66727-814.97128 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>213.66727 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>814.97128 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>542.41 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>82.64 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=31 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRINF04 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: INFORMATIONAL PURPOS PV4* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>31 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>247-259 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>253.9267-805.16463 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>253.9267 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>805.16463 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>542.01 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>82.63 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=32 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRINF05 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: INFORMATIONAL PURPOS PV5* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>32 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>260-272 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>253.98231-806.59761 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>253.98231 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>806.59761 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>541.38 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>83.35 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=33 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRRSI01 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: STRAIGHTFORWARD PROC PV1* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>33 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>273-285 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>208.55746-790.86225 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>208.55746 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>790.86225 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>542.89 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>79.81 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=34 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRRSI02 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: STRAIGHTFORWARD PROC PV2* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>34 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>286-298 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>242.95384-793.36461 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>242.95384 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>793.36461 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>541.54 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>79.91 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=35 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRRSI03 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: STRAIGHTFORWARD PROC PV3* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>35 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>299-311 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>228.86684-801.91121 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>228.86684 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>801.91121 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>541.96 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>79.51 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=36 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRRSI04 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: STRAIGHTFORWARD PROC PV4* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>36 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>312-324 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>241.69887-781.32405 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>241.69887 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>781.32405 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>541.03 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>80.03 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=37 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRRSI05 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: STRAIGHTFORWARD PROC PV5* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>37 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>325-337 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>243.48685-776.65671 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>243.48685 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>776.65671 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>541.76 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>80.18 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=38 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRIIE01 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: INTERPRETING PROCESS PV1* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>38 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>338-350 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>254.58488-797.84945 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>254.58488 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>797.84945 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>554.55 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>77.88 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=39 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRIIE02 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: INTERPRETING PROCESS PV2* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>39 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>351-363 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>265.22253-791.37081 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>265.22253 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>791.37081 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>554.11 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>79.11 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=40 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRIIE03 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: INTERPRETING PROCESS PV3* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>40 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>364-376 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>248.70745-801.7179 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>248.70745 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>801.7179 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>554.07 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>78.84 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=41 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRIIE04 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: INTERPRETING PROCESS PV4* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>41 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>377-389 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>276.60784-793.64204 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>276.60784 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>793.64204 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>553.59 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>78.46 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=42 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRIIE05 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*PLAUSIBLE VALUE: INTERPRETING PROCESS PV5* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>42 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>13 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>6 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>390-402 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>	<th><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td nowrap>291.15872-835.07612 </td>	<td nowrap>ACTUAL VALUE </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>999998,999999 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:10%; font_size:1.0em">    <tr>	<td><b>Valid N:</b></td>	<td align=right>4425 </td>	</tr>
+<tr>    <td><b>Minimum:</b></td>	<td align=right>270.16524 </td>	</tr>
+<tr>    <td><b>Maximum:</b></td>	<td align=right>790.33794 </td>	</tr>
+<tr>    <td><b>Mean:</b></td>	<td align=right>552.98 </td>	</tr>
+<tr>    <td nowrap><b>Standard Deviation:</b></td>	<td align=right>79.35 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=43 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRIBM01 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*INT. READING SCALE BENCHMARK REACHED* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>43 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>1 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>403 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>182 </td>	<td align=right>4.11 </td>	<td nowrap align=right>1 </td>	<td nowrap>BELOW 400 </td>	</tr>
+<tr>	<td align=right>567 </td>	<td align=right>12.81 </td>	<td nowrap align=right>2 </td>	<td nowrap>AT OR ABOVE 400 BUT BELOW 475 </td>	</tr>
+<tr>	<td align=right>1370 </td>	<td align=right>30.96 </td>	<td nowrap align=right>3 </td>	<td nowrap>AT OR ABOVE 475 BUT BELOW 550 </td>	</tr>
+<tr>	<td align=right>1550 </td>	<td align=right>35.03 </td>	<td nowrap align=right>4 </td>	<td nowrap>AT OR ABOVE 550 BUT BELOW 625 </td>	</tr>
+<tr>	<td align=right>756 </td>	<td align=right>17.08 </td>	<td nowrap align=right>5 </td>	<td nowrap>AT OR ABOVE 625 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>8,9 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=44 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRIBM02 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*INT. READING SCALE BENCHMARK REACHED* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>44 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>1 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>404 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>197 </td>	<td align=right>4.45 </td>	<td nowrap align=right>1 </td>	<td nowrap>BELOW 400 </td>	</tr>
+<tr>	<td align=right>581 </td>	<td align=right>13.13 </td>	<td nowrap align=right>2 </td>	<td nowrap>AT OR ABOVE 400 BUT BELOW 475 </td>	</tr>
+<tr>	<td align=right>1345 </td>	<td align=right>30.4 </td>	<td nowrap align=right>3 </td>	<td nowrap>AT OR ABOVE 475 BUT BELOW 550 </td>	</tr>
+<tr>	<td align=right>1572 </td>	<td align=right>35.53 </td>	<td nowrap align=right>4 </td>	<td nowrap>AT OR ABOVE 550 BUT BELOW 625 </td>	</tr>
+<tr>	<td align=right>730 </td>	<td align=right>16.5 </td>	<td nowrap align=right>5 </td>	<td nowrap>AT OR ABOVE 625 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>8,9 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=45 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRIBM03 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*INT. READING SCALE BENCHMARK REACHED* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>45 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>1 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>405 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>176 </td>	<td align=right>3.98 </td>	<td nowrap align=right>1 </td>	<td nowrap>BELOW 400 </td>	</tr>
+<tr>	<td align=right>610 </td>	<td align=right>13.79 </td>	<td nowrap align=right>2 </td>	<td nowrap>AT OR ABOVE 400 BUT BELOW 475 </td>	</tr>
+<tr>	<td align=right>1330 </td>	<td align=right>30.06 </td>	<td nowrap align=right>3 </td>	<td nowrap>AT OR ABOVE 475 BUT BELOW 550 </td>	</tr>
+<tr>	<td align=right>1593 </td>	<td align=right>36 </td>	<td nowrap align=right>4 </td>	<td nowrap>AT OR ABOVE 550 BUT BELOW 625 </td>	</tr>
+<tr>	<td align=right>716 </td>	<td align=right>16.18 </td>	<td nowrap align=right>5 </td>	<td nowrap>AT OR ABOVE 625 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>8,9 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=46 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRIBM04 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*INT. READING SCALE BENCHMARK REACHED* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>46 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>1 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>406 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>183 </td>	<td align=right>4.14 </td>	<td nowrap align=right>1 </td>	<td nowrap>BELOW 400 </td>	</tr>
+<tr>	<td align=right>594 </td>	<td align=right>13.42 </td>	<td nowrap align=right>2 </td>	<td nowrap>AT OR ABOVE 400 BUT BELOW 475 </td>	</tr>
+<tr>	<td align=right>1354 </td>	<td align=right>30.6 </td>	<td nowrap align=right>3 </td>	<td nowrap>AT OR ABOVE 475 BUT BELOW 550 </td>	</tr>
+<tr>	<td align=right>1586 </td>	<td align=right>35.84 </td>	<td nowrap align=right>4 </td>	<td nowrap>AT OR ABOVE 550 BUT BELOW 625 </td>	</tr>
+<tr>	<td align=right>708 </td>	<td align=right>16 </td>	<td nowrap align=right>5 </td>	<td nowrap>AT OR ABOVE 625 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>8,9 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
+<table align=left cellspacing=2 cellpadding=1 style="width:20%; font_size:1.0em">
+<hr size="1" width="100%" noshade style="color:#000000"/>
+<table id=47 align=left cellspacing=2 cellpadding=0 style="width:15%; font_size:1.0em">    <tr>	<td><b>Name:</b></td>	<td>ASRIBM05 </td>	</tr>
+<tr>    <td><b>Label:</b></td>	<td nowrap>*INT. READING SCALE BENCHMARK REACHED* </td>	</tr>
+<tr>    <td><b>Number:</b></td>	<td>47 </td>	</tr>
+<tr>    <td><b>Type:</b></td>	<td>Numeric </td>	</tr>
+<tr>    <td><b>Width:</b></td>	<td>1 </td>	</tr>
+<tr>    <td><b>Decimals:</b></td>	<td>0 </td>	</tr>
+<tr>    <td><b>Location:</b></td>	<td>407 </td>	</tr>	<tr></tr><tr></tr><tr></tr>	<tr></tr><tr></tr><tr></tr>    </table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em">    <tr></tr>
+<table align=left cellspacing=3 cellpadding=1 style="width:15%; font_size:1.0em">    <tr>    <th align=left><b>Frequency</b></th>	<th align=left><b>Percent</b></th>	<th align=left><b>Code</b></th>	<th align=left><b>Description</b></th>	</tr>
+<tr>	<td align=right>194 </td>	<td align=right>4.38 </td>	<td nowrap align=right>1 </td>	<td nowrap>BELOW 400 </td>	</tr>
+<tr>	<td align=right>582 </td>	<td align=right>13.15 </td>	<td nowrap align=right>2 </td>	<td nowrap>AT OR ABOVE 400 BUT BELOW 475 </td>	</tr>
+<tr>	<td align=right>1337 </td>	<td align=right>30.21 </td>	<td nowrap align=right>3 </td>	<td nowrap>AT OR ABOVE 475 BUT BELOW 550 </td>	</tr>
+<tr>	<td align=right>1604 </td>	<td align=right>36.25 </td>	<td nowrap align=right>4 </td>	<td nowrap>AT OR ABOVE 550 BUT BELOW 625 </td>	</tr>
+<tr>	<td align=right>708 </td>	<td align=right>16 </td>	<td nowrap align=right>5 </td>	<td nowrap>AT OR ABOVE 625 </td>	</tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table>
+<table align=left cellspacing=3 cellpadding=2 style="width:10%; font_size:1.0em">    <tr>	<td align=left nowrap><b>Missing Data Codes:</b></td>	<td align=left nowrap>8,9 </td>	</tr></table>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<table align=left cellspacing=2 cellpadding=0 style="width:100%; font_size:1.0em"><tr></tr><tr></tr></table>
